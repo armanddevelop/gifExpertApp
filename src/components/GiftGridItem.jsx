@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 export const GiftGridItem = ({ img }) => {
   const { title, url, username } = img;
   return (
@@ -6,4 +7,7 @@ export const GiftGridItem = ({ img }) => {
       <p>{title === "" ? "no title" : title}</p>
     </div>
   );
+};
+GiftGridItem.propTypes = {
+  img: PropTypes.object.isRequired,
 };

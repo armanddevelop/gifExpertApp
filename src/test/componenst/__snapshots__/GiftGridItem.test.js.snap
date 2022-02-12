@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for GiftGridItem component snapshot for the GiftGridItem component 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="licha"
+    src="http://wwww.hola.com"
+  />
+  <p>
+    No image
+  </p>
+</div>
+`;
