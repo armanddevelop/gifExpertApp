@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to GiftExpertApp component should show GiftGrid component 1`] = `
+<Fragment>
+  <h1>
+    GiftExpertApp
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <GiftGrid
+    category="one punch"
+    key="one punch"
+  />
+</Fragment>
+`;
+
+exports[`Test to GiftExpertApp component snapshot for GiftExpertApp 1`] = `
+<Fragment>
+  <h1>
+    GiftExpertApp
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+</Fragment>
+`;

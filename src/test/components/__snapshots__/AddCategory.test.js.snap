@@ -5,6 +5,7 @@ exports[`Test to AddCategory component snapshot for the AddCategory component 1`
   noValidate={true}
   onSubmit={[Function]}
 >
+  <p />
   <input
     onChange={[Function]}
     placeholder="Search for a Gif"

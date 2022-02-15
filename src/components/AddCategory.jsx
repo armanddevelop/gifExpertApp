@@ -7,12 +7,14 @@ export const AddCategory = ({ setCategories }) => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    inputValue.trim().length > 3 &&
+    if (inputValue.trim().length > 3) {
       setCategories((category) => [inputValue, ...category]);
-    setInputValue("");
+      setInputValue("");
+    }
   };
   return (
     <form onSubmit={handleSubmit} noValidate>
+      <p>{inputValue}</p>
       <input
         placeholder="Search for a Gif"
         type="text"
